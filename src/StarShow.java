@@ -10,8 +10,7 @@ public class StarShow {
 	Robot robot = new Robot("batman");
 	
 	void makeStars() {
-		
-		drawStar(150);	//5. delete this line. you will draw the star again in step 8.
+		robot.setSpeed(8);
 		// 13. Set the speed to 8
 
 		// 6. Make a variable to hold the X position of the Robot and set it to 10
@@ -23,7 +22,7 @@ public class StarShow {
 		int size = 25;
 		// 12. Repeat the steps #19 to #18, 30 times
 		for (int i = 0; i < 30; i++) {
-			
+			System.out.println(i);
 		
 			// 19. Set the pen width to i 
 			robot.setPenWidth(i);
